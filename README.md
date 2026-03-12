@@ -19,3 +19,10 @@ A modern desktop application designed to streamline the appointment process betw
 - `models/`: Entity classes for Users, Doctors, Patients, and Appointments.
 - `database/`: Data Access Objects (DAO) for SQLite CRUD operations.
 - `ui/`: Controller classes managing JavaFX view logic.
+
+## 🚀 Execution
+1. Clone the repository.
+2. Ensure the SQLite JDBC dependency is resolved via Maven.
+3. Launch the application using Maven:
+   ```bash
+   mvn javafx:run
